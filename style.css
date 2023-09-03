@@ -27,6 +27,7 @@ img{
 }
 header {
   display: flex;
+  gap: 97px;
   background-color: #f4fcee;
 }
 
@@ -37,13 +38,13 @@ header {
   align-items: flex-start;
 }
 
-.header-title{
+.title{
     font-size: 45px;
     margin-bottom: 45px;
     color: #272727;
 }
 
-.header-para{
+.para{
     color: #272727;
     margin-bottom: 45px;
 
@@ -96,4 +97,60 @@ header {
 .flower-name{
     text-align: center;
     margin-top: 15px;
+}
+
+.service-section{
+    display: flex;
+    gap: 100px;
+    background-color:rgba(224, 188, 188, 0.39);
+    height: 200px;
+    border-radius: 8px;
+    margin-top: 128px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 128px;
+}
+.service-img{
+    width: 88px;
+    
+}
+.service-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hot-deal-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 186px;
+    margin-top: 90px;
+}
+
+.hot-deal-left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hot-deal-img img{
+    width: 318px;
+}
+
+.instagram-box{
+    text-align: center;
+    margin-top: 124px;
+}
+
+.instagram-img{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 124px;
+}
+
+.instagram-img img{
+    width: 200px;
 }
