@@ -25,10 +25,13 @@ img{
     border-radius: 8px;
     font-weight: bold;
 }
-header {
+header{
+    background-color: #f4fcee;
+}
+.header-box {
   display: flex;
   gap: 97px;
-  background-color: #f4fcee;
+
 }
 
 .header-left {
@@ -153,4 +156,47 @@ header {
 
 .instagram-img img{
     width: 200px;
+}
+
+.subscribe-section{
+    background-image: url('Flower-Asset/Rectangle\ 9.png');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 124px;
+    padding: 35px;
+}
+
+.subscribe-section .title{
+    
+}
+
+.input-section{
+    display: flex;
+    gap: 16px;
+}
+
+input{
+    width: 700px;
+    border: none;
+    padding: 25px 45px;
+    border-radius: 8px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #272727;
+    padding: 55px;
+}
+footer h3 {
+    color: white;
+}
+.footer-logo{
+    color: #E55473;
+}
+.footer-para{
+    color: white;
 }
