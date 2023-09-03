@@ -1,0 +1,52 @@
+/* google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+}
+
+.btn-primary{
+    cursor: pointer;
+    border: none;
+    padding: 14px 24px;
+    color: white;
+    background-color: #E55473;
+    border-radius: 8px;
+    font-weight: bold;
+}
+header {
+  display: flex;
+  background-color: #f4fcee;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.header-title{
+    font-size: 45px;
+    margin-bottom: 45px;
+}
+
+.header-para{
+    color: #272727;
+    margin-bottom: 45px;
+
+}
+
+.header-right img {
+  width: 100%;
+  margin-top: 45px;
+}
