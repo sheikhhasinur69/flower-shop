@@ -13,7 +13,9 @@
   max-width: 1140px;
   margin: auto;
 }
-
+img{
+    width: 100%;
+}
 .btn-primary{
     cursor: pointer;
     border: none;
@@ -38,6 +40,7 @@ header {
 .header-title{
     font-size: 45px;
     margin-bottom: 45px;
+    color: #272727;
 }
 
 .header-para{
@@ -49,4 +52,48 @@ header {
 .header-right img {
   width: 100%;
   margin-top: 45px;
+}
+
+.featured-title{
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: #272727;
+}
+.featured-para{
+    width: 594px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    color: #272727;
+}
+
+.featured-flower-section{
+    display: flex;
+    gap: 24px;
+}
+
+.featured-flower-one, .featured-flower-two, .featured-flower-three{
+    width: 464px;
+    height: 450px;
+    border-radius:50px ;
+    background-color: #d3559281;
+}
+
+.featured-flower-two{
+    background-color: rgba(0, 191, 255, 0.342);
+}
+.featured-flower-one img{
+    width: 370px;
+    
+}
+.featured-flower-two img{
+    width: 300px;
+}
+.featured-flower-three img{
+    width: 324px;
+}
+.flower-name{
+    text-align: center;
+    margin-top: 15px;
 }
